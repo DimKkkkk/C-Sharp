@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/FinalWork1/bin/Debug/net7.0/FinalWork1.dll",
+            "program": "${workspaceFolder}/SeminarsCSharp/TestDeBugVSComun/TestDeBugVSComun/bin/Debug/net6.0/TestDeBugVSComun.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/FinalWork1",
+            "cwd": "${workspaceFolder}/SeminarsCSharp/TestDeBugVSComun/TestDeBugVSComun",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false
