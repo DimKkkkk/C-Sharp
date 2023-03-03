@@ -14,7 +14,7 @@ double e = Math.Exp(p);
 double brace = Math.Pow(p, 2) + Math.Pow(y, 3);
 double ln = Math.Log(brace);
 
-Console.Write($"K = ln({p}^2 + {y}^3) + e^{p} = {ln + e}.");
+Console.Write($"K = ln({p}^2 + {y}^3) + e^{p} = {Math.Round((ln + e), 2)}");
 
 uint GetNumberFromUser()
 {
