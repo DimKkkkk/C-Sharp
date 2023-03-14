@@ -24,8 +24,8 @@ void MaxDistance()
 {
     double A = Math.Sqrt(Math.Pow(x0, 2) + Math.Pow(y0, 2));
     double B = Math.Sqrt(Math.Pow(x1, 2) + Math.Pow(y1, 2));
-    if (A > B) Console.Write("точка А");
-    else Console.Write("точка B");
+    if (A > B) Console.Write($"точка А ({x0},{y0})");
+    else Console.Write($"точка B ({x1},{y1})");
 }
 
 EnterCords(ref x0, ref y0);
